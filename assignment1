@@ -1,0 +1,14 @@
+
+public class assignment1 {
+
+	public static void main(String[] args) {
+		
+		int sum,i=1;
+		float j=1;
+		sum=i+(int)j;
+		System.out.println("Sum :");
+		System.out.print(sum);
+
+	}
+
+}
