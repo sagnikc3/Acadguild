@@ -1,0 +1,6 @@
+Give two examples of data that cannot be stored in a variable of type int.
+
+Answer: The two types of variables which cannot be stored in a variable type int are, character and decimal values.
+
+Example : characters like : 'a'
+          decimal values like : 22.174
