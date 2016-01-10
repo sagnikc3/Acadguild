@@ -1,0 +1,27 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class assignment1 {
+
+	public static void main(String[] args) throws Exception {
+		
+		// TODO Auto-generated method stub
+		
+		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+		
+		System.out.println("Enter the number:");
+		double n=Integer.parseInt(br.readLine());
+		
+		double sq=Math.sqrt(n);
+		double cu=Math.cbrt(n);
+		
+		System.out.println("Square Root :" +sq);
+		System.out.println("Cube Root:" + cu);
+		
+		
+		
+		
+
+	}
+
+}
