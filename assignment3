@@ -1,0 +1,37 @@
+
+public class assignmment3 {
+
+	//private data members
+	private int empid;
+	private String empname;
+	private String emprank;
+	
+	public int getempid()
+	{
+		return empid;
+		
+	}
+	public String getempname()
+	{
+		return empname;
+	}
+	public String getemprank()
+	{
+		return emprank;
+	}
+	public void setempid(int id)
+	{
+		this.empid=id;
+		
+	}
+	public void setempname(String name)
+	{
+		this.empname=name;
+		
+	}
+	public void setemprank(String rank)
+	{
+		this.emprank=rank;
+	}
+
+}
